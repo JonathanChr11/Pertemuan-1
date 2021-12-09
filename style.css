@@ -1,0 +1,74 @@
+:root {
+    --primary-color : green;
+    --secondary-color : red;
+    /*  root ini bagian dari var*/
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+.image1 {
+    width: 500px;
+    height: 500px;
+    object-fit: contain;
+}
+.input-group {
+    background-color: wheat;
+    color: red;
+    padding: 10px;
+   
+    /* margin: top left bottom right;
+    margin: 10px 0px 10px 0px;
+    margin: top-bottom, left-right;
+    margin: 10px 0; */
+}
+.input-group > input {
+    padding: 10px;
+}
+
+.submit-button {
+    padding: 10px;
+    margin-top: 10px;
+    background: linear-gradient(red, yellow, green);
+}
+h1 {
+    margin: 20px;
+}
+.nav {
+    display: block;
+    background-color: var(--primary-color);
+}
+.gallery {
+    width: 100% !important;
+}
+.gallery {
+    width: 500px;
+}
+.paragraph p {
+    color: red;
+}
+.paragraph > p {
+    background-color: blue;
+}
+.paragraph > p:first-child{
+    color: white;
+}
+.paragraph + p {
+    color: green;
+    font-size: 20px;
+}
+/* position static, fixed, relative, sticky, absolute
+generalnya static 
+position sticky itu harus diluar div baru bisa dilakukan
+*/
+.div {
+    position: static;
+}
+.lingkaran {
+    position: absolute;
+    background-color: orange;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+    right: 0;
+}
